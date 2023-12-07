@@ -3,5 +3,5 @@ function openMenu() {
     nav.classList.toggle('open');
 }
 function contactMe() {
-
+    window.location.href = 'contact.html'
 }
