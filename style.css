@@ -390,6 +390,67 @@ footer .bottom .links a{
     margin-left: 14px;
 }
 
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.15);
+}
+
+.form-container label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+.form-container select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #5e3bee;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #4c2c9f;
+}
+
+.success-message {
+    color: #5e3bee;
+    font-weight: bold;
+    margin-top: 10px;
+    display: none;
+}
+
 @media screen and (max-width: 1200px) {
     
     .main .left h5{
