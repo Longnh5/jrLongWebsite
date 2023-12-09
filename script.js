@@ -5,3 +5,6 @@ function openMenu() {
 function contactMe() {
     window.location.href = 'contact.html'
 }
+function homePage() {
+    window.location.href = 'index.html'
+}
